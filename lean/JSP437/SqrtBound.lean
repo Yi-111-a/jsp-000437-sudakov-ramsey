@@ -27,7 +27,7 @@ theorem two_mul_le_two_pow_250_mul_sqrt (m : ℕ) :
     have step : 2 * 2 ^ (2 * m.sqrt + 2) = 2 ^ (2 * m.sqrt + 3) := by
       calc 2 * 2 ^ (2 * m.sqrt + 2) = 2 ^ 1 * 2 ^ (2 * m.sqrt + 2) := by
             rw [pow_one]
-        _ = 2 ^ (1 + (2 * m.sqrt + 2)) := by rw [pow_add]
+        _ = 2 ^ (1 + (2 * m.sqrt + 2)) := by rw [← pow_add]
         _ = 2 ^ (2 * m.sqrt + 3) := by congr 1; omega
     -- Assemble the chain; `2s + 3 ≤ 250s` for `s ≥ 1`.
     calc 2 * m ≤ 2 * ((m.sqrt + 1) ^ 2) := Nat.mul_le_mul_left 2 h1.le
