@@ -1,0 +1,22 @@
+jsp_id: JSP-000437
+catalog_url: https://github.com/TheJustinSunPrize/awards/blob/main/problems/catalog-0401-0500.md#JSP-000437
+status: wip
+prize_ready: false
+github_owner: Yi-111-a
+lean_repository: https://github.com/Yi-111-a/jsp-000437-sudakov-ramsey
+branch: main
+commit_sha: ""
+headline_theorems:
+  - sudakov_ramsey_edge_bound
+roles:
+  formalization_operators:
+    - Yi-111-a
+  mathematical_solvers_literature:
+    - "Sudakov (Su11), Adv. Math. (2011), 601–609 — full resolution"
+    - "Alon–Krivelevich–Sudakov (AKS03), Combin. Probab. Comput. (2003)"
+attribution_basis: |
+  Formalization work under GitHub account Yi-111-a. Mathematical solution
+  credits remain with the published literature. This stub does not claim the prize.
+build:
+  toolchain_file: lean/lean-toolchain
+  command: lake build

@@ -1,0 +1,9 @@
+{
+  "jsp_id": "JSP-000437",
+  "catalog_url": "https://github.com/TheJustinSunPrize/awards/blob/main/problems/catalog-0401-0500.md#JSP-000437",
+  "original_question_en": "Can every graph's Ramsey number be bounded exponentially in the square root of its edge count?",
+  "required_theorems": [
+    "sudakov_ramsey_edge_bound"
+  ],
+  "notes": "Full Su11 2^{250\u221am} (or equivalent O(\u221am) in the exponent) for all isolate-free m-edge graphs; bipartite-only AKS03 is not enough."
+}
